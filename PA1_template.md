@@ -15,7 +15,7 @@
     usePackage("dplyr")     # A fast, consistent tool for working with data frame like objects.
     usePackage("ggplot2")   # Grammer of Graphics
     usePackage("scales")    # Scale functions for graphics, for nicer yticks
-    
+     
     # If the activity variable doesn't exist, load it
     if (!exists("activity")) {
       
